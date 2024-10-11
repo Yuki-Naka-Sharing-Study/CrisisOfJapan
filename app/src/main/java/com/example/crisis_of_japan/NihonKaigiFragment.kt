@@ -7,13 +7,13 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 
 @Composable
-fun SecondFragment(navController: NavHostController) {
+fun NihonKaigiFragment(navController: NavHostController) {
 
     Column {
-        Text("This is Second Fragment")
+        Text("日本会議のメンバー")
 
         Button(onClick = { navController.navigate("home") }) {
-            Text("Go to Home Fragment")
+            Text("ホーム画面に戻る")
         }
     }
 }

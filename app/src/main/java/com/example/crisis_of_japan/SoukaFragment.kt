@@ -7,13 +7,13 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 
 @Composable
-fun FirstFragment(navController: NavHostController) {
+fun SoukaFragment(navController: NavHostController) {
 
     Column {
-        Text("This is First Fragment")
+        Text("創価学会と関わりがあった人物・企業")
 
         Button(onClick = { navController.navigate("home") }) {
-            Text("Go to Home Fragment")
+            Text("ホーム画面に戻る")
         }
     }
 }

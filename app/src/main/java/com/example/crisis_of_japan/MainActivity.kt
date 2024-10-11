@@ -21,8 +21,20 @@ class MainActivity : ComponentActivity() {
         val navController = rememberNavController()
         NavHost(navController = navController, startDestination = "home") {
             composable("home") { HomeFragment(navController) }
-            composable("firstFragment") { FirstFragment(navController) }
-            composable("secondFragment") { SecondFragment(navController) }
+            composable("touitsuFragment") { TouitsuFragment(navController) }
+            composable("soukaFragment") { SoukaFragment(navController) }
+            composable("nihonKaigiFragment") { NihonKaigiFragment(navController) }
+            composable("seiwakaiFragment") { SeiwakaiFragment(navController) }
+            composable("vaccineFragment") { VaccineFragment(navController) }
+            composable("uraganeFragment") { UraganeFragment(navController) }
+            composable("jiminFragment") { JiminFragment(navController) }
+            composable("lawFragment") { LawFragment(navController) }
+            composable("territoryFragment") { TerritoryFragment(navController) }
+            composable("baikokuFragment") { BaikokuFragment(navController) }
+            composable("liarFragment") { LiarFragment(navController) }
+            composable("sleepFragment") { SleepFragment(navController) }
+            composable("otherFragment") { OtherFragment(navController) }
+            composable("infoFragment") { InfoFragment(navController) }
         }
     }
 }
