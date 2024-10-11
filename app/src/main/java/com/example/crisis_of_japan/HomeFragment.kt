@@ -10,25 +10,25 @@ import androidx.navigation.NavHostController
 fun HomeFragment(navController: NavHostController) {
     Column {
         Button(onClick = { navController.navigate("touitsuFragment") }) {
-            Text("統一教会と関わりがあった人物・企業")
+            Text("統一教会")
         }
         Button(onClick = { navController.navigate("touitsuFragment") }) {
-            Text("創価学会と関わりがあった人物・企業")
+            Text("創価学会")
         }
         Button(onClick = { navController.navigate("nihonKaigiFragment") }) {
-            Text("日本会議のメンバー")
+            Text("日本会議")
         }
         Button(onClick = { navController.navigate("seiwakaiFragment") }) {
-            Text("清和会")
+            Text("清和政策研究会")
         }
         Button(onClick = { navController.navigate("vaccineFragment") }) {
-            Text("ワクチンを推奨した人物・企業")
+            Text("ワクチン")
         }
         Button(onClick = { navController.navigate("uraganeFragment") }) {
             Text("裏金議員")
         }
         Button(onClick = { navController.navigate("jiminFragment") }) {
-            Text("自民党に献金した企業")
+            Text("自民党献金企業")
         }
         Button(onClick = { navController.navigate("lawFragment") }) {
             Text("法の破壊者")
@@ -37,19 +37,19 @@ fun HomeFragment(navController: NavHostController) {
             Text("領土問題")
         }
         Button(onClick = { navController.navigate("baikokuFragment") }) {
-            Text("売国法案に加担した人物")
+            Text("売国法案")
         }
         Button(onClick = { navController.navigate("liarFragment") }) {
             Text("嘘吐き")
         }
         Button(onClick = { navController.navigate("sleepFragment") }) {
-            Text("国会で寝てた議員")
+            Text("国会睡眠議員")
         }
         Button(onClick = { navController.navigate("otherFragment") }) {
-            Text("その他売国奴・国賊")
+            Text("その他売国奴")
         }
         Button(onClick = { navController.navigate("otherFragment") }) {
-            Text("お勧めの本・情報発信者")
+            Text("お勧めの情報源")
         }
     }
 }

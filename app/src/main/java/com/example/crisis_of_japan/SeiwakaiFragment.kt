@@ -10,7 +10,7 @@ import androidx.navigation.NavHostController
 fun SeiwakaiFragment(navController: NavHostController) {
 
     Column {
-        Text("清和会")
+        Text("清和政策研究会")
 
         Button(onClick = { navController.navigate("home") }) {
             Text("ホーム画面に戻る")
