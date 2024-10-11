@@ -12,7 +12,7 @@ fun HomeFragment(navController: NavHostController) {
         Button(onClick = { navController.navigate("touitsuFragment") }) {
             Text("統一教会")
         }
-        Button(onClick = { navController.navigate("touitsuFragment") }) {
+        Button(onClick = { navController.navigate("soukaFragment") }) {
             Text("創価学会")
         }
         Button(onClick = { navController.navigate("nihonKaigiFragment") }) {
@@ -48,7 +48,7 @@ fun HomeFragment(navController: NavHostController) {
         Button(onClick = { navController.navigate("otherFragment") }) {
             Text("その他売国奴")
         }
-        Button(onClick = { navController.navigate("otherFragment") }) {
+        Button(onClick = { navController.navigate("infoFragment") }) {
             Text("お勧めの情報源")
         }
     }

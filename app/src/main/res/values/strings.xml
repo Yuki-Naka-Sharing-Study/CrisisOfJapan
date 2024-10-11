@@ -1,5 +1,38 @@
 <resources>
     <string name="app_name">crisis_of_japan</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="touitsu_kyoukai">統一教会</string>
+
+    <!-- 統一教会と関わりがあった政治家 -->
+    <string name="touitsu_name_abe">安倍晋三</string>
+    <string name="touitsu_name_ogiuda">萩生田光一</string>
+    <string name="touitsu_name_kobayashi">小林鷹之</string>
+    <string name="touitsu_name_katou">加藤勝信</string>
+    <string name="touitsu_name_ishiba">石破茂</string>
+    <string name="touitsu_name_kitamura">北村経夫</string>
+    <string name="touitsu_name_koumura">高村正彦</string>
+    <string name="touitsu_name_inoguchi">猪口邦子</string>
+    <string name="touitsu_name_saitou">斉藤洋明</string>
+
+    <!-- 統一教会と関わりがあった政治家の説明 -->
+    <string name="touitsu_description_abe">憲政史上最悪の政治家。GDP下落率、自殺率、失業率、公的債務、税収、生活保護、不良債権、出生率、貧困率、犯罪率いずれも歴代ワースト。</string>
+    <string name="touitsu_description_ogiuda">日本を一緒に神様の国にしましょう</string>
+    <string name="touitsu_description_kobayashi"></string>
+    <string name="touitsu_description_katou"></string>
+    <string name="touitsu_description_ishiba"></string>
+    <string name="touitsu_description_kitamura"></string>
+    <string name="touitsu_description_koumura"></string>
+    <string name="touitsu_description_inoguchi"></string>
+    <string name="touitsu_description_saitou"></string>
+
+    <!-- 日本会議のメンバー -->
+
+    <!-- 裏金議員 -->
+
+    <!-- 政治資金改正法に賛成した政治家 -->
+
+    <!-- ワクチンを推奨した人物 -->
+
+
+    <string name="about">About</string>
+    <string name="expand_button_content_description">See more or less information about a dog.</string>
 </resources>

@@ -50,12 +50,13 @@ android {
 }
 
 dependencies {
-    implementation("androidx.navigation:navigation-fragment-ktx:2.4.0")
-    implementation("androidx.navigation:navigation-ui-ktx:2.4.0")
-    implementation("androidx.compose.ui:ui:1.0.5")
-    implementation("androidx.compose.material:material:1.0.5")
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.8.2")
+    implementation("androidx.navigation:navigation-ui-ktx:2.8.2")
+    implementation("androidx.compose.ui:ui:1.7.3")
+    implementation("androidx.compose.material:material:1.7.3")
     implementation("androidx.activity:activity-compose:1.3.1")
-    implementation("androidx.navigation:navigation-compose:2.6.0")
+    implementation("androidx.navigation:navigation-compose:2.8.2")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
