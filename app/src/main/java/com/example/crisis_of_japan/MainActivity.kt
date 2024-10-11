@@ -21,8 +21,8 @@ class MainActivity : ComponentActivity() {
         val navController = rememberNavController()
         NavHost(navController = navController, startDestination = "home") {
             composable("home") { HomeFragment(navController) }
-            composable("firstFragment") { FirstFragment() }
-            composable("secondFragment") { SecondFragment() }
+            composable("firstFragment") { FirstFragment(navController) }
+            composable("secondFragment") { SecondFragment(navController) }
         }
     }
 }
