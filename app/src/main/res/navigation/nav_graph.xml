@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph">
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <navigation xmlns:android="http://schemas.android.com/apk/res/android">
+        <fragment
+            android:id="@+id/fragment_home"
+            android:name="com.example.crisis_of_japan.HomeFragment"
+            android:label="Home" >
+            <action
+                android:id="@+id/action_homeFragment_to_screen1Fragment"
+                app:destination="@id/screen1Fragment" />
+            <action
+                android:id="@+id/action_homeFragment_to_screen2Fragment"
+                app:destination="@id/screen2Fragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/screen1Fragment"
+            android:name="com.example.crisis_of_japan.OneFragment"
+            android:label="Screen 1" />
+        <fragment
+            android:id="@+id/screen2Fragment"
+            android:name="com.example.crisis_of_japan.TwoFragment"
+            android:label="Screen 2" />
+    </navigation>
+
+
+</navigation>
