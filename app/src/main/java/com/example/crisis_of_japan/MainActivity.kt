@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
             composable("soukaFragment") { SoukaFragment(navController) }
             composable("nihonKaigiFragment") { NihonKaigiFragment(navController) }
             composable("seiwakaiFragment") { SeiwakaiFragment(navController) }
-            composable("vaccineFragment") { VaccineFragment(navController) }
+            composable("vaccineFragment") { VaccineScreen() }
             composable("uraganeFragment") { UraganeFragment(navController) }
             composable("jiminFragment") { JiminFragment(navController) }
             composable("lawFragment") { LawFragment(navController) }

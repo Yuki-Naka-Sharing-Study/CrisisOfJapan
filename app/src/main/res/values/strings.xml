@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">crisis_of_japan</string>
     <string name="touitsu_kyoukai">統一教会</string>
+    <string name="vaccine">ワクチン</string>
 
     <!-- 統一教会と関わりがあった政治家 -->
     <string name="touitsu_name_abe">安倍晋三</string>
@@ -31,6 +32,10 @@
     <!-- 政治資金改正法に賛成した政治家 -->
 
     <!-- ワクチンを推奨した人物 -->
+    <string name="vaccine_name_kouno">河野太郎</string>
+
+    <!-- ワクチンを推奨した人物の説明 -->
+    <string name="vaccine_description_kouno">ワクチンについて「アメリカでは、2億回射って、死者はゼロ」と発言しワクチンを推奨したが、国に認可されただけで800人以上の死者数が出ている。</string>
 
 
     <string name="about">About</string>
