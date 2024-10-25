@@ -51,14 +51,14 @@ class TouitsuFragment : Fragment() {
         return ComposeView(requireContext()).apply {
             setContent {
 //                ExpandableCard()
-                TouitsuApp()
+                TouitsuScreen()
             }
         }
     }
 }
 
 @Composable
-fun TouitsuApp() {
+fun TouitsuScreen() {
     Scaffold(
         topBar = {
             TouitsuTopAppBar()
